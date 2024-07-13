@@ -24,3 +24,9 @@ body {
   .container button:hover {
     background-color: #eee;
   }
+  video, audio, iframe {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 70px;
+  }
