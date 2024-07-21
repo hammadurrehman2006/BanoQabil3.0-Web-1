@@ -1,0 +1,198 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.header,
+.footer {
+    padding: 20px;
+    padding-left: 0px;
+    background-color: #fffbfb;
+    text-transform: uppercase;
+    font-size: 1.0em;
+    box-shadow: 0 1px 1px #00000041;
+}
+
+.header-bottom-row {
+    padding: 20px;
+    padding-left: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.toprowitems {
+    padding: 10px;
+    display: inline-block;
+    padding-bottom: 2px;
+}
+
+.header-bottom {
+    padding-top: 10px;
+}
+
+#selector {
+    padding: 15px;
+    width: 200px;
+}
+
+#selectsearch {
+    padding: 15px;
+    width: 50vw;
+}
+
+.fa-magnifying-glass {
+    background-color: #002f34;
+    padding: 17px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#sell-button {
+    margin-left: 40px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #fff;
+    border-bottom: 6px solid #3A77ff;
+    border-left: 6px solid #ffce32;
+    border-top: 6px solid #3A77ff;
+    border-right: 6px solid #23e5db;
+    cursor: pointer;
+}
+
+.toprowicons {
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.li-menu {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 0.8em;
+}
+
+.li-menu:hover {
+    cursor: pointer;
+    color: #46aca9;
+}
+
+.all-cat {
+    font-weight: bold;
+}
+
+.top-ad,
+.categor-circles{
+    padding: 0px 80px;
+    margin-top: 10px;
+
+}
+
+.cat-cir {
+    max-width: 80px;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px 20px;
+    padding-right: 10px;
+}
+
+.cat-cir img {
+    width: 80px;
+}
+
+.main-all-ads {
+    padding: 0px 10px;
+    margin-top: 10px;
+
+}
+
+.ad-card {
+    cursor: pointer;
+    width: 300px;
+    display: inline-block;
+    margin: 20px 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #bdbdbd;
+}
+
+.ad-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.fa-heart {
+    float: right;
+    margin-right: 10px;
+}
+
+.price {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.ad-name,
+.time,
+.locat {
+    padding: 10px;
+}
+.locat {
+    font-size: 13px;
+}
+
+.time {
+    font-size: 10px;
+    color: #6c6c6c;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.bottom-ad {
+    width: 100%;
+}
+
+.prop-cat {
+    margin-bottom: 10px;
+}
+
+.footer-li {
+    list-style-type: none;
+    margin-bottom: 3px;
+    color: #6c6c6c;
+    text-transform: capitalize;
+}
+
+.footer-col {
+    display: inline-block;
+    max-width: 300px;
+    margin-right: 20px;
+    width: 15%;
+}
+.social-media{
+    margin-right: 10px;
+}
+.footer-column{
+    width: 20%;
+}
+#applink{
+    margin-top: 5px;
+}
+.endnote{
+    text-align: end;
+}
+.endnote-back{
+    padding: 20px;
+    background-color: #002f34;
+    padding-right: 80px;
+}
+.myname-p{
+    color: #fff;
+    font-size: 12px;
+}

@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olx Clone by HammadurRehman</title>
+    <link rel="icon" href="./images/headicon.png" type="image" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d4e3e8d8dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div>
+        <div class="toprowitems">
+          <img
+            id="logo"
+            src="images/OLX_blue_logo.svg.png"
+            alt="OLX_blue_logo"
+            width="40px"
+          />
+        </div>
+        <div class="toprowitems">
+          <a href=""><i class="fa-solid fa-car"></i> Motors</a>
+        </div>
+        <div class="toprowitems">
+          <a href=""><i class="fa-regular fa-building"></i> Property</a>
+        </div>
+        <div class="header-bottom">
+          <div class="toprowitems">
+            <select name="" id="selector">
+              <option value="khi">Karachi</option>
+              <option value="lhr">Lahore</option>
+              <option value="isl">Islamabad</option>
+              <option value="pwr">Peshawar</option>
+              <option value="qta">Quetta</option>
+            </select>
+          </div>
+          <div class="toprowitems">
+            <input
+              type="search"
+              name=""
+              id="selectsearch"
+              placeholder="Find Cars, Mobile Phones and More.."
+            /><i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="toprowitems">
+            <i class="fa-regular fa-comment toprowicons"></i>
+            <i class="fa-regular fa-bell toprowicons"></i>
+            <button id="sell-button">
+              <i class="fa-solid fa-plus"></i> Sell
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom-row">
+      <div>
+        <ul class="header-bottom-cat">
+          <li class="all-cat li-menu">
+            All Categories <i class="fa-solid fa-angle-down"></i>
+          </li>
+          <li class="li-menu">Mobile Phones</li>
+          <li class="li-menu">Cars</li>
+          <li class="li-menu">Motorcycles</li>
+          <li class="li-menu">House</li>
+          <li class="li-menu">TV-Audio-Video</li>
+          <li class="li-menu">Tablets</li>
+          <li class="li-menu">Land & Plots</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div class="top-ad">
+        <img src="images/top-ad.png" alt="top-ad" style="width: 100%" />
+      </div>
+    </div>
+    <div class="categor-circles">
+      <h2>All Categories</h2>
+      <div>
+        <div class="cat-cir">
+          <img src="images/mobilescir.png" alt="Mobile" />
+          <p>Mobiles</p>
+        </div>
+        <div class="cat-cir">
+          <img src="images/vehiclescir.png" alt="Vehicles" />
+          <p>Vehicles</p>
+        </div>
+        <div class="cat-cir">
+          <img src="images/property-for-salecir.png" alt="Sale" />
+          <p>Property for Sale</p>
+        </div>
+        <div class="cat-cir">
+          <img src="images/property-for-rentcir.png" alt="Rent" />
+          <p>Property for Rent</p>
+        </div>
+        <div class="cat-cir">
+          <img
+            src="images/electronics-home-appliancecir.png"
+            alt="Electronics"
+          />
+          <p>Electronics & Home Appliances</p>
+        </div>
+        <div class="cat-cir">
+          <img
+            src="images/business-industrial-agriculturecir.png"
+            alt="Industrial"
+          />
+          <p>Businesses, Industrial & Agriculture</p>
+        </div>
+        <div class="cat-cir">
+          <img src="images/servicescir.png" alt="Services" />
+          <p>Services</p>
+        </div>
+        <div class="cat-cir">
+          <img src="images/jobscir.png" alt="" />
+          <p>Jobs</p>
+        </div>
+        <div class="cat-cir">
+          <img src="images/animalscir.png" alt="Animals" />
+          <p>Animals</p>
+        </div>
+        <div class="cat-cir">
+          <img src="images/furniture-home-decorcir.png" alt="Furniture" />
+          <p>Furniture & Home Decor</p>
+        </div>
+        <div class="cat-cir">
+          <img src="images/fashion-beautycir.png" alt="Fashion" />
+          <p>Fashion & Beauty</p>
+        </div>
+        <div class="cat-cir">
+          <img
+            src="images/books-sports-hobbiescir.png"
+            alt="books-sports-hobbies"
+          />
+          <p>Books, Sports & Hobbies</p>
+        </div>
+        <div class="cat-cir">
+          <img src="images/kidscir.png" alt="Kids" />
+          <p>Kids</p>
+        </div>
+      </div>
+    </div>
+    <div class="main-all-ads">
+      <h2>Mobile Phones</h2>
+      <div class="ad-container">
+        <div class="ad-card">
+          <div>
+            <img src="images/ad-mobile.webp" alt="" />
+          </div>
+          <div>
+            <p class="price">
+              Rs.57,000
+              <span class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+            </p>
+          </div>
+          <div class="ad-name">
+            <p>S Galaxy S24 ultra</p>
+          </div>
+          <div class="locat">
+            <p>DHA phase 8, Karachi</p>
+            <p class="time">2 days ago</p>
+          </div>
+        </div>
+        <div class="ad-card">
+          <div>
+            <img src="images/ad-mobile.webp" alt="s24-ultra" />
+          </div>
+          <div>
+            <p class="price">
+              Rs.57,000
+              <span class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+            </p>
+          </div>
+          <div class="ad-name">
+            <p>S Galaxy S24 ultra</p>
+          </div>
+          <div class="locat">
+            <p>DHA phase 8, Karachi</p>
+            <p class="time">2 days ago</p>
+          </div>
+        </div>
+        <div class="ad-card">
+          <div>
+            <img src="images/ad-mobile.webp" alt="" />
+          </div>
+          <div>
+            <p class="price">
+              Rs.57,000
+              <span class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+            </p>
+          </div>
+          <div class="ad-name">
+            <p>S Galaxy S24 ultra</p>
+          </div>
+          <div class="locat">
+            <p>DHA phase 8, Karachi</p>
+            <p class="time">2 days ago</p>
+          </div>
+        </div>
+        <div class="ad-card">
+          <div>
+            <img src="images/ad-mobile.webp" alt="" />
+          </div>
+          <div>
+            <p class="price">
+              Rs.57,000
+              <span class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+            </p>
+          </div>
+          <div class="ad-name">
+            <p>S Galaxy S24 ultra</p>
+          </div>
+          <div class="locat">
+            <p>DHA phase 8, Karachi</p>
+            <p class="time">2 days ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-all-ads">
+      <h2>Cars</h2>
+      <div class="ad-container">
+        <div class="ad-card">
+          <div>
+            <img src="images/ad-car.webp" alt="mercedes-car-ad" />
+          </div>
+          <div>
+            <p class="price">
+              Rs.45,000,000
+              <span class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+            </p>
+          </div>
+          <div class="ad-name">
+            <p>Mercedes Benz E200 Cabriolet</p>
+          </div>
+          <div class="locat">
+            <p>New Kumharwara,Lyari, Karachi</p>
+            <p class="time">4 hours ago</p>
+          </div>
+        </div>
+        <div class="ad-card">
+          <div>
+            <img src="images/ad-car.webp" alt="mercedes-car-ads24-ultra" />
+          </div>
+          <div>
+            <p class="price">
+              Rs.45,000,000
+              <span class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+            </p>
+          </div>
+          <div class="ad-name">
+            <p>Mercedes Benz E200 Cabriolet</p>
+          </div>
+          <div class="locat">
+            <p>New Kumharwara,Lyari, Karachi</p>
+            <p class="time">4 hours ago</p>
+          </div>
+        </div>
+        <div class="ad-card">
+          <div>
+            <img src="images/ad-car.webp" alt="mercedes-car-ad" />
+          </div>
+          <div>
+            <p class="price">
+              Rs.45,000,000
+              <span class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+            </p>
+          </div>
+          <div class="ad-name">
+            <p>Mercedes Benz E200 Cabriolet</p>
+          </div>
+          <div class="locat">
+            <p>New Kumharwara,Lyari, Karachi</p>
+            <p class="time">4 hours ago</p>
+          </div>
+        </div>
+        <div class="ad-card">
+          <div>
+            <img src="images/ad-car.webp" alt="mercedes-car-ad" />
+          </div>
+          <div>
+            <p class="price">
+              Rs.45,000,000
+              <span class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+            </p>
+          </div>
+          <div class="ad-name">
+            <p>Mercedes Benz E200 Cabriolet</p>
+          </div>
+          <div class="locat">
+            <p>New Kumharwara,Lyari, Karachi</p>
+            <p class="time">4 hours ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-all-ads">
+      <h2>Bikes & Motorcycles</h2>
+      <div class="ad-container">
+        <div class="ad-card">
+          <div>
+            <img src="images/ad-bike.jpg" alt="" />
+          </div>
+          <div>
+            <p class="price">
+              Rs.254,500
+              <span class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+            </p>
+          </div>
+          <div class="ad-name">
+            <p>Road Prince Bella</p>
+          </div>
+          <div class="locat">
+            <p>Tariq Road, Karachi</p>
+            <p class="time">2 days ago</p>
+          </div>
+        </div>
+        <div class="ad-card">
+          <div>
+            <img src="images/ad-bike.jpg" alt="s24-ultra" />
+          </div>
+          <div>
+            <p class="price">
+              Rs.254,500
+              <span class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+            </p>
+          </div>
+          <div class="ad-name">
+            <p>Road Prince Bella</p>
+          </div>
+          <div class="locat">
+            <p>Tariq Road, Karachi</p>
+            <p class="time">2 days ago</p>
+          </div>
+        </div>
+        <div class="ad-card">
+          <div>
+            <img src="images/ad-bike.jpg" alt="" />
+          </div>
+          <div>
+            <p class="price">
+              Rs.254,500
+              <span class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+            </p>
+          </div>
+          <div class="ad-name">
+            <p>Road Prince Bella</p>
+          </div>
+          <div class="locat">
+            <p>Tariq Road, Karachi</p>
+            <p class="time">2 days ago</p>
+          </div>
+        </div>
+        <div class="ad-card">
+          <div>
+            <img src="images/ad-bike.jpg" alt="" />
+          </div>
+          <div>
+            <p class="price">
+              Rs.254,500
+              <span class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+            </p>
+          </div>
+          <div class="ad-name">
+            <p>Road Prince Bella</p>
+          </div>
+          <div class="locat">
+            <p>Tariq Road, Karachi</p>
+            <p class="time">2 days ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-all-ads">
+      <h2>Houses</h2>
+      <div class="ad-container">
+        <div class="ad-card">
+          <div>
+            <img src="images/ad-house.webp" alt="" />
+          </div>
+          <div>
+            <p class="price">
+              Rs.1,50,00,000
+              <span class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+            </p>
+          </div>
+          <div class="ad-name">
+            <p>9 Marla Luxury Villas With Swimming Pool On Installment</p>
+          </div>
+          <div class="locat">
+            <p>Bahria Town, Karachi</p>
+            <p class="time">3 weeks ago</p>
+          </div>
+        </div>
+        <div class="ad-card">
+          <div>
+            <img src="images/ad-house.webp" alt="s24-ultra" />
+          </div>
+          <div>
+            <p class="price">
+              Rs.1,50,00,000
+              <span class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+            </p>
+          </div>
+          <div class="ad-name">
+            <p>9 Marla Luxury Villas With Swimming Pool On Installment</p>
+          </div>
+          <div class="locat">
+            <p>Bahria Town, Karachi</p>
+            <p class="time">3 weeks ago</p>
+          </div>
+        </div>
+        <div class="ad-card">
+          <div>
+            <img src="images/ad-house.webp" alt="" />
+          </div>
+          <div>
+            <p class="price">
+              Rs.1,50,00,000
+              <span class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+            </p>
+          </div>
+          <div class="ad-name">
+            <p>9 Marla Luxury Villas With Swimming Pool On Installment</p>
+          </div>
+          <div class="locat">
+            <p>Bahria Town, Karachi</p>
+            <p class="time">3 weeks ago</p>
+          </div>
+        </div>
+        <div class="ad-card">
+          <div>
+            <img src="images/ad-house.webp" alt="" />
+          </div>
+          <div>
+            <p class="price">
+              Rs.1,50,00,000
+              <span class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+            </p>
+          </div>
+          <div class="ad-name">
+            <p>9 Marla Luxury Villas With Swimming Pool On Installment</p>
+          </div>
+          <div class="locat">
+            <p>Bahria Town, Karachi</p>
+            <p class="time">3 weeks ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <img src="images/bottom-ad.png" class="bottom-ad" alt="" />
+    </div>
+    <div class="footer">
+      <div class="footer-col">
+        <p class="prop-cat"><strong>POPULAR CATEGORIES.</strong></p>
+        <ul>
+          <li class="footer-li">Cars</li>
+          <li class="footer-li">Mobile Phones</li>
+          <li class="footer-li">House for Rent</li>
+          <li class="footer-li">Jobs</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p class="prop-cat"><strong>TRENDING SEARCHES.</strong></p>
+        <ul>
+          <li class="footer-li">Bikes</li>
+          <li class="footer-li">Watches</li>
+          <li class="footer-li">Books</li>
+          <li class="footer-li">Dogs</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p class="prop-cat"><strong>ABOUT US.</strong></p>
+        <ul>
+          <li class="footer-li">About Dubizzle Group.</li>
+          <li class="footer-li">OLX Blog</li>
+          <li class="footer-li">Contact</li>
+          <li class="footer-li">OLX for Businesses</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p class="prop-cat"><strong>OLX</strong></p>
+        <ul>
+          <li class="footer-li">Help</li>
+          <li class="footer-li">Sitemap</li>
+          <li class="footer-li">Terms of use</li>
+          <li class="footer-li">Privacy Policy</li>
+        </ul>
+      </div>
+      <div class="footer-col footer-column">
+        <p class="prop-cat"><strong>FOLLOW US</strong></p>
+        <div class="social-media">
+          <span class="social-media">
+            <i class="fa-brands fa-facebook"></i>
+          </span>
+          <span class="social-media">
+            <i class="fa-brands fa-twitter"></i>
+          </span>
+          <span class="social-media">
+            <i class="fa-brands fa-youtube"></i>
+          </span>
+          <span class="social-media">
+            <i class="fa-brands fa-instagram"></i>
+          </span>
+        </div>
+        <div>
+          <img id="applink" src="images/iconAppStore.svg" alt="appstore" width="70px">
+          <img id="applink" src="images/iconGooglePlayEN.svg" alt="appstore" width="70px">
+          <img id="applink" src="images/iconAppGaller.svg" alt="appstore" width="70px">
+        </div>
+      </div>
+    </div>
+    <div class="endnote-back">
+      <div class="endnote">
+        <p class="myname-p">Developed By: <strong  class="myname-p">Muhammad HammadurRehman</strong></p>
+      </div>
+    </div>
+  </body>
+</html>
